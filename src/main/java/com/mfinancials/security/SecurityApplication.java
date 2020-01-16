@@ -20,7 +20,7 @@ public class SecurityApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		userRepository.save(new User(new UserDetailsImpl("minde", "12345")));
-		userRepository.save(new User(new UserDetailsImpl("jonas", "12345")));
+		userRepository.save(new User(new UserDetailsImpl("Ivan", "12345")));
+		userRepository.save(new User(new UserDetailsImpl("Kamen", "12345")));
 	}
 }
